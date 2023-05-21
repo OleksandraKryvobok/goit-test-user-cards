@@ -1,6 +1,6 @@
 import BackBtn from "components/BackBtn/BackBtn";
 import { getFilteredUsers } from "functions/getFilteredUsers";
-import { lazy, useCallback, useEffect, useMemo, useState } from "react";
+import { lazy, useEffect, useMemo, useState } from "react";
 import { fetchUser, updateUser } from "services/user-cards-api";
 
 const UserCardsList = lazy(() => import('../components/UserCardsList/UserCardsList'));
