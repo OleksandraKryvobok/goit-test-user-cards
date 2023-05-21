@@ -1,4 +1,7 @@
+import PropTypes from 'prop-types';
+
 import { Dropdown } from "./Filter.styled";
+
 
 const Filter = ({ setFilterValue }) => {
     const options = ['Show All', 'Follow', 'Following' ];
@@ -14,3 +17,7 @@ const Filter = ({ setFilterValue }) => {
 };
 
 export default Filter;
+
+Filter.propTypes = {
+    setFilterValue: PropTypes.func.isRequired,
+};

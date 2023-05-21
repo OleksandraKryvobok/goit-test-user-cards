@@ -1,6 +1,9 @@
-import { Container, Logo, Image, User, Tweets, Followers, Button, Line } from './UserCard.styled';
+import PropTypes from 'prop-types';
+
 import image from '../../imgs/word-bubbles.png';
 import logo from '../../imgs/logo.svg';
+
+import { Container, Logo, Image, User, Tweets, Followers, Button, Line } from './UserCard.styled';
 
 const UserCard = ({ info, onFollowBtnClick }) => { 
     return (
@@ -17,3 +20,8 @@ const UserCard = ({ info, onFollowBtnClick }) => {
 };
 
 export default UserCard;
+
+UserCard.propTypes = {
+    info: PropTypes.object.isRequired,
+    onFollowBtnClick: PropTypes.func.isRequired,
+};

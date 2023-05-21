@@ -1,8 +1,10 @@
+import PropTypes from 'prop-types';
+
 import { lazy } from "react";
-import UserCard from "../UserCard/UserCard";
 import { Container, List, Button } from "./UserCardsList.styled";
 
 const Filter = lazy(() => import('../Filter/Filter'));
+const UserCard = lazy(() => import('../UserCard/UserCard'));
 
 const UserCardsList = ({ users, onLoadMoreBtnClick, onFollowBtnClick, setFilterValue }) => {
     return (
@@ -29,3 +31,10 @@ const UserCardsList = ({ users, onLoadMoreBtnClick, onFollowBtnClick, setFilterV
 };
 
 export default UserCardsList;
+
+UserCardsList.propTypes = {
+    users: PropTypes.array.isRequired,
+    onLoadMoreBtnClick: PropTypes.func.isRequired,
+    onFollowBtnClick: PropTypes.func.isRequired,
+    setFilterValue: PropTypes.func,
+};
