@@ -1,1 +1,1 @@
-// export { default } from './UserCardsList';
+export { default } from './UserCardsList';

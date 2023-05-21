@@ -1,19 +1,18 @@
-import { Logo, Image, User, Item, Tweets, Followers, Button, Line } from './UserCard.styled';
+import { Container, Logo, Image, User, Tweets, Followers, Button, Line } from './UserCard.styled';
 import image from '../../imgs/word-bubbles.png';
 import logo from '../../imgs/logo.svg';
-import user from '../../imgs/boy.png';
 
-const UserCard = () => {
+const UserCard = ({ info, onFollowBtnClick }) => { 
     return (
-        <Item>
+        <Container >
             <Logo src={logo} />
             <Image src={image} />
-            <User src={user} />
+            <User src={info.avatar} />
             <Line></Line>
-            <Tweets>777 TWEETS</Tweets>
-            <Followers>FOLLOWERS</Followers>
-            <Button>FOLLOW</Button>
-        </Item>
+            <Tweets>{new Intl.NumberFormat("en-US").format(info.tweets)} TWEETS</Tweets>
+            <Followers>{new Intl.NumberFormat("en-US").format(info.followers)} FOLLOWERS</Followers>
+            <Button type="button" onClick={() => onFollowBtnClick(info)} >{info.isFollowing ? 'FOLLOWING' : 'FOLLOW'}</Button>
+        </Container>
     );
 };
 

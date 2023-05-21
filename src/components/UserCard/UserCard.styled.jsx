@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const Item = styled.li`
+export const Container = styled.div`
     position: relative;
     display: flex;
     flex-direction: column;
@@ -36,9 +36,7 @@ export const User = styled.img`
 
     width: 72px;
     height: 72px;
-    /* border: 8px solid #EBD8FF;
     border-radius: 50%;
-    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #AE7BE3, inset 0px 3.43693px 2.5777px #FBF8FF; */
 `;
     
 export const Line = styled.div`
@@ -66,6 +64,7 @@ export const Button = styled.button`
 
     padding: 14px 56px;
 
+    background-color: ${(prop) => prop.isFollowing ? '#5CD3A8' : '#ebd8ff'};
     border: none;
-    border-radius: 10.31px
+    border-radius: 10px;
 `;
