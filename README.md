@@ -1,4 +1,4 @@
-# Users App
+# UserCards App
 
 - The Home page contains a simple header and section "Hero". Routing done with Reacе Router.
 
