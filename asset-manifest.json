@@ -1,21 +1,28 @@
 {
   "files": {
     "main.css": "/goit-test-user-cards/static/css/main.7cda0caf.css",
-    "main.js": "/goit-test-user-cards/static/js/main.bf99563f.js",
-    "static/js/487.f85ed53c.chunk.js": "/goit-test-user-cards/static/js/487.f85ed53c.chunk.js",
-    "static/js/415.c463ca46.chunk.js": "/goit-test-user-cards/static/js/415.c463ca46.chunk.js",
-    "static/js/386.b49d2724.chunk.js": "/goit-test-user-cards/static/js/386.b49d2724.chunk.js",
+    "main.js": "/goit-test-user-cards/static/js/main.aa3ce121.js",
+    "static/js/487.6216f815.chunk.js": "/goit-test-user-cards/static/js/487.6216f815.chunk.js",
+    "static/js/99.c07f0ffd.chunk.js": "/goit-test-user-cards/static/js/99.c07f0ffd.chunk.js",
+    "static/js/158.2b76b99a.chunk.js": "/goit-test-user-cards/static/js/158.2b76b99a.chunk.js",
+    "static/js/469.f70f73b7.chunk.js": "/goit-test-user-cards/static/js/469.f70f73b7.chunk.js",
+    "static/js/117.883a3a7c.chunk.js": "/goit-test-user-cards/static/js/117.883a3a7c.chunk.js",
+    "static/js/817.7be52458.chunk.js": "/goit-test-user-cards/static/js/817.7be52458.chunk.js",
     "static/media/word-bubbles.png": "/goit-test-user-cards/static/media/word-bubbles.ed1e290cfc8368c0d3a7.png",
+    "static/media/sky.jpg": "/goit-test-user-cards/static/media/sky.0c2d1cb671002389c37b.jpg",
     "static/media/logo.svg": "/goit-test-user-cards/static/media/logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/goit-test-user-cards/index.html",
     "main.7cda0caf.css.map": "/goit-test-user-cards/static/css/main.7cda0caf.css.map",
-    "main.bf99563f.js.map": "/goit-test-user-cards/static/js/main.bf99563f.js.map",
-    "487.f85ed53c.chunk.js.map": "/goit-test-user-cards/static/js/487.f85ed53c.chunk.js.map",
-    "415.c463ca46.chunk.js.map": "/goit-test-user-cards/static/js/415.c463ca46.chunk.js.map",
-    "386.b49d2724.chunk.js.map": "/goit-test-user-cards/static/js/386.b49d2724.chunk.js.map"
+    "main.aa3ce121.js.map": "/goit-test-user-cards/static/js/main.aa3ce121.js.map",
+    "487.6216f815.chunk.js.map": "/goit-test-user-cards/static/js/487.6216f815.chunk.js.map",
+    "99.c07f0ffd.chunk.js.map": "/goit-test-user-cards/static/js/99.c07f0ffd.chunk.js.map",
+    "158.2b76b99a.chunk.js.map": "/goit-test-user-cards/static/js/158.2b76b99a.chunk.js.map",
+    "469.f70f73b7.chunk.js.map": "/goit-test-user-cards/static/js/469.f70f73b7.chunk.js.map",
+    "117.883a3a7c.chunk.js.map": "/goit-test-user-cards/static/js/117.883a3a7c.chunk.js.map",
+    "817.7be52458.chunk.js.map": "/goit-test-user-cards/static/js/817.7be52458.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.bf99563f.js"
+    "static/js/main.aa3ce121.js"
   ]
 }
