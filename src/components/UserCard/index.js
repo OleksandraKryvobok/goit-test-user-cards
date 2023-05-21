@@ -1,1 +1,1 @@
-// export { defaults } from './UserCard';
+export { defaults } from './UserCard';
