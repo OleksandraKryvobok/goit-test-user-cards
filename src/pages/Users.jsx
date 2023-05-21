@@ -38,9 +38,7 @@ const Users = () => {
         setPage(prevState => page + 1);
     };
 
-    function onFollowBtnClick (userInfo) {
-         
-        console.log(userInfo.isFollowing)    
+    function onFollowBtnClick (userInfo) { 
         async function updateUserInfo() {
             try {
                 const response = await updateUser({
