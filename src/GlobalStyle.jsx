@@ -4,15 +4,14 @@ import 'modern-normalize';
 
 export const GlobalStyle = createGlobalStyle`
     body {
-        margin: 0;
         font-family: 'Montserrat', sans-serif;;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
         color: #EBD8FF;
-        background-color: #fff;
-    }
+        background-color: #ffffff;
+    };
 
     /* h1 {
         margin: 0 0 18px 0;
@@ -26,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     } */
 
     ul {
+        padding: 0;
         margin: 0;
         list-style: none;
     };
