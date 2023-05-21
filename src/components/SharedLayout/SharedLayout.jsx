@@ -1,21 +1,23 @@
 import { Outlet } from "react-router-dom";
-import { Header, Nav, StyledLink } from "./SharedLayout.styled";
+import { Header, Container, Nav, StyledLink, Main } from "./SharedLayout.styled";
 import { Suspense } from "react";
 
 const SharedLayout = () => {
     return (
         <div>
             <Header>
-                <Nav>
-                    <StyledLink to="/">Home</StyledLink>
-                    <StyledLink to="/tweets">Tweets</StyledLink>
-                </Nav>
+                <Container>
+                    <Nav>
+                        <StyledLink to="/">Home</StyledLink>
+                        <StyledLink to="/users">Users</StyledLink>
+                    </Nav>
+                </Container>
             </Header>
-            <main>
+            <Main>
                 <Suspense>
                     <Outlet />
                 </Suspense>
-            </main>
+            </Main>
         </div>
     );
 };
