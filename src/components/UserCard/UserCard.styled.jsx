@@ -64,7 +64,8 @@ export const Button = styled.button`
 
     padding: 14px 56px;
 
-    background-color: ${(prop) => prop.isFollowing ? '#5CD3A8' : '#ebd8ff'};
+    background-color: ${props => props.isFollowing ? '#5CD3A8' : '#ebd8ff'};
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 `;
