@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/goit-test-user-cards/static/css/main.7cda0caf.css",
-    "main.js": "/goit-test-user-cards/static/js/main.2e03ab62.js",
-    "static/js/487.6216f815.chunk.js": "/goit-test-user-cards/static/js/487.6216f815.chunk.js",
+    "main.js": "/goit-test-user-cards/static/js/main.12732d85.js",
+    "static/js/487.1a59dd1d.chunk.js": "/goit-test-user-cards/static/js/487.1a59dd1d.chunk.js",
     "static/js/99.c07f0ffd.chunk.js": "/goit-test-user-cards/static/js/99.c07f0ffd.chunk.js",
-    "static/js/158.632708b4.chunk.js": "/goit-test-user-cards/static/js/158.632708b4.chunk.js",
+    "static/js/140.b08ac44f.chunk.js": "/goit-test-user-cards/static/js/140.b08ac44f.chunk.js",
     "static/js/48.9ad678db.chunk.js": "/goit-test-user-cards/static/js/48.9ad678db.chunk.js",
     "static/js/117.883a3a7c.chunk.js": "/goit-test-user-cards/static/js/117.883a3a7c.chunk.js",
     "static/js/586.831b2a15.chunk.js": "/goit-test-user-cards/static/js/586.831b2a15.chunk.js",
@@ -14,10 +14,10 @@
     "static/media/logo.svg": "/goit-test-user-cards/static/media/logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/goit-test-user-cards/index.html",
     "main.7cda0caf.css.map": "/goit-test-user-cards/static/css/main.7cda0caf.css.map",
-    "main.2e03ab62.js.map": "/goit-test-user-cards/static/js/main.2e03ab62.js.map",
-    "487.6216f815.chunk.js.map": "/goit-test-user-cards/static/js/487.6216f815.chunk.js.map",
+    "main.12732d85.js.map": "/goit-test-user-cards/static/js/main.12732d85.js.map",
+    "487.1a59dd1d.chunk.js.map": "/goit-test-user-cards/static/js/487.1a59dd1d.chunk.js.map",
     "99.c07f0ffd.chunk.js.map": "/goit-test-user-cards/static/js/99.c07f0ffd.chunk.js.map",
-    "158.632708b4.chunk.js.map": "/goit-test-user-cards/static/js/158.632708b4.chunk.js.map",
+    "140.b08ac44f.chunk.js.map": "/goit-test-user-cards/static/js/140.b08ac44f.chunk.js.map",
     "48.9ad678db.chunk.js.map": "/goit-test-user-cards/static/js/48.9ad678db.chunk.js.map",
     "117.883a3a7c.chunk.js.map": "/goit-test-user-cards/static/js/117.883a3a7c.chunk.js.map",
     "586.831b2a15.chunk.js.map": "/goit-test-user-cards/static/js/586.831b2a15.chunk.js.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.2e03ab62.js"
+    "static/js/main.12732d85.js"
   ]
 }
