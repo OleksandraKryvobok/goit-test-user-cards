@@ -5,7 +5,7 @@ import { fetchUser, updateUser } from "services/user-cards-api";
 
 const UserCardsList = lazy(() => import('../components/UserCardsList/UserCardsList'));
 
-const Users = () => {
+const Tweets = () => {
     const [users, setUsers] = useState([]);
     const [filterValue, setFilterValue] = useState('');
     const [page, setPage] = useState(1);
@@ -83,4 +83,4 @@ const Users = () => {
     );
 };
 
-export default Users;
+export default Tweets;

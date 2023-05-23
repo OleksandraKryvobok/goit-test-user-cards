@@ -5,7 +5,7 @@ import { GlobalStyle } from "./GlobalStyle";
 
 const SharedLayout = lazy(() => import('./components/SharedLayout'));
 const Home = lazy(() => import('./pages/Home'));
-const Users = lazy(() => import('./pages/Users'));
+const Tweets = lazy(() => import('./pages/Tweets'));
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/'element={<SharedLayout />}>
             <Route index element={<Home />} />
-            <Route path='users' element={<Users />} />
+            <Route path='tweets' element={<Tweets />} />
             <Route path="*" element={<h1>NotFound</h1>} />
           </Route>
         </Routes>
